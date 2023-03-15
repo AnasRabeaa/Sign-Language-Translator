@@ -3,7 +3,6 @@
 ### <a href = "https://elysian01.github.io/Sign-Language-Translator/index.html"> Click Here </a> to visit website
 <br>
   
-<img src="./docs/Thumbnail.jpeg" alt="#" width="600px" height="350px">
 
 ### <a href = "https://youtu.be/TQHRHdGpT70"> Click Here </a> to watch demo 
 
