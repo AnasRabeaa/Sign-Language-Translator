@@ -79,7 +79,7 @@ textarea:focus::placeholder {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 span{
   color:#A020F0;
@@ -1056,17 +1056,17 @@ margin-right:5%;
 
 .search {
   position: absolute;
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%);
   background: #fff;
-  height: 60px;
-  border-radius: 40px;
-  padding: 10px;
+  height: 40px;
+  border-radius: 20px;
+  /* padding: 10px; */
 }
 
 .search:hover>.search-txt {
-  width: 180px;
-  padding: 0 10px;
+  width: 300px;
+  padding: 0 20px;
   color: #8600b3;
   font-family: 'Pangolin', cursive;
 }
@@ -1078,7 +1078,7 @@ margin-right:5%;
 .search-btn {
   color: #8600b3;
   float: right;
-  width: 40px;
+  width: 30px;
   height: 40px;
   border-radius: 50%;
   background: #ABB2B9;
@@ -1098,7 +1098,8 @@ margin-right:5%;
   font-size: 16px;
   transition: ease-in 0.4s;
   line-height: 40px;
-  width: 110px;
+  width: 250px;
+  padding: 0 20px;
   font-family: 'Pangolin', cursive;
 }
 
