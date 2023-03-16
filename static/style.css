@@ -82,7 +82,7 @@ body {
   overflow-x: hidden;
 }
 span{
-  color:#ff9900;
+  color:#A020F0;
   padding:0;
   padding: 0px !important;
   text-align: center;
@@ -90,7 +90,7 @@ span{
 
 .navbar {
   font-size: 18px;
-  background-color: #222;
+  background-color: #111827;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px 40px 10px 50px;
   padding-bottom: 10px;
@@ -107,7 +107,7 @@ span{
 }
 .logo:hover,
   li a:hover {
-      color: #ff9900;
+      color: #A020F0;
   } 
 
 .main-nav li {
@@ -172,7 +172,7 @@ span{
 
   .logo:hover,
   .nav-links:hover {
-      color: #ff9900;
+      color: #A020F0;
   }
 }
 
@@ -465,7 +465,8 @@ Abhishek Code
 */
 
 body {
-     background-color: #fff;
+     background: linear-gradient(180deg, #cc33ff,#8600b3);
+    /* background: linear-gradient(25deg, #8600b3 50%, #cc33ff 50%); */
 }
 
 .container {
@@ -477,16 +478,18 @@ body {
      text-align: center;
 }
 
-#inputClassName {
+/* #inputClassName {
   padding: 5px 10px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #fafafa;
   border: 0;
   margin: 10px 50px;
   font-size: 20px;
   box-shadow: 0 8px #ccc;
   outline: none;
-}
+  width: 500px;
+  height: 50px;
+} */
 
 
 .grey-bg {
@@ -525,7 +528,7 @@ body {
      display: inline;
      padding: 0.5rem;
      margin: 0.6rem 0.1rem;
-     color:#fe4a49 ;
+     color:A020F0 ;
 }
 .grey-bg span {
      color: #000;
@@ -542,7 +545,7 @@ body {
 }
 
 .danger {
-     background-color:#fe4a49;
+     background-color:A020F0;
      /* background-color: #ff4d00; */
      border:none;
      color: #fff;
@@ -839,22 +842,23 @@ background-color: #2ab7ca;
   padding:0px;
   margin:0.5rem 0.3rem;
   border:none;
-  background-color: #fafafa; 
+  background-color: #111827; 
+  cursor: pointer;
+  color: #fff;
 }
 .grey-bgs{
   /* padding: 5px 10px; */
   padding:0px;
   border-radius: 10px;
-  background-color: #fafafa;
+  background-color: #111827;
   border: 0;
-
   margin: 2rem 10px;
-  margin-top:-10%;
+  margin-top:-2%;
   font-size: 20px;
-  box-shadow: 3px 8px #ccc;
+  /* box-shadow: 3px 8px #ccc; */
   outline: none;
-  max-width:400px;
-  /* width:500px; */
+  /* max-width:400px; */
+  width:800px;
   display: flex;
   flex-direction: column;
 }
@@ -870,7 +874,7 @@ flex-wrap: wrap;
 }
 .tutorial-image{
   /* width: 600px;height: 350px; */
-  width: 600px;height: 350px;
+  width: 400px;height: 350px;
 
   /* box-shadow: 3px 8px #ccc; */
 border-style: solid;
@@ -1016,7 +1020,7 @@ border-radius: 5%; */
   margin-right:20%;
 }
 .orange{
-  color:#ff9900
+  color:#A020F0;
 }
 
 .grey-bgs{
@@ -1046,4 +1050,57 @@ margin-right:5%;
   /* background-color: #000; */
 }
 
+}
+
+.search {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  height: 60px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search:hover>.search-txt {
+  width: 180px;
+  padding: 0 10px;
+  color: #8600b3;
+  font-family: 'Pangolin', cursive;
+}
+
+.search:hover>.search-btn {
+  background: white;
+}
+
+.search-btn {
+  color: #8600b3;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ABB2B9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: wheat;
+  font-size: 16px;
+  transition: ease-in 0.4s;
+  line-height: 40px;
+  width: 110px;
+  font-family: 'Pangolin', cursive;
+}
+
+.fas fa-search {
+  font-weight: 200;
+  font-size: 40px;
 }

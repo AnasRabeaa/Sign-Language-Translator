@@ -5,7 +5,7 @@ import re
 Function to rename gif files
 '''
 
-path = "D:\\IT\\Projects\\Sign-Language-Translator\\static\\ISL_Gifs\\"
+path = "C:\\Users\\Anas\\Downloads\\Sign-Language-Translator-master\\Sign-Language-Translator\\static\\ISL_Gifs"
 
 files = [0 for i in range(86)]
 letters = [chr(letter) for letter in range(97, 123)]

@@ -21,17 +21,19 @@
         <span class="navbar-toggle" id="js-navbar-toggle">
                <button class="togglebtn" onClick={this.buttonclicked}> <i class="fas fa-bars"></i></button>
           </span>
-        <h5><a href="index.html" class="logo">Sign Language <span>Translator</span></a></h5>
+        <a href="index.html" class="logo">
+            <img class="hart" src="/docs/hart.png"  style="height: 70px; margin-top: 5px;" alt="logo">
+        </a>
         <ul class="main-nav" id="js-menu">
             <li>
-                <a href="index.html" class="nav-links orange" style="color: #ff9900;">Tutorials</a>
+                <a href="index.html" class="nav-links orange" style="color: #A020F0;">Tutorials</a>
             </li>
             <li>
                 <a href="templates/Training.html" class="nav-links">Training</a>
             </li>
 
             <li>
-                <a href="templates\Model.html" class="nav-links">Test Your Skill</a>
+                <a href="templates\Model.html" class="nav-links">Test Skills</a>
             </li>
 
             <li>
@@ -41,11 +43,14 @@
         </ul>
     </nav>
     <br>
-    <h1 class="text-center" style="font-family: 'Pacifico',cursive;">The Learning Spot <i style="font-size: 45px;color: #ff9900;" class="fas fa-graduation-cap"></i></h1>
+    <h1 class="text-center" style="font-family: 'Pacifico',cursive; color: #fff;">The Learning Spot <i style="font-size: 45px;color: #A020F0;" class="fas fa-graduation-cap"></i></h1>
     <br><br>
-    <div class="add-class text-center">
-        <input id="inputClassName" type="text" placeholder="Search here" name="option" />
-        <button class="dark btn-lg btn-shadow mr-5" id="add-button">Search <i class="fas fa-search"></i></button>
+    <div class="add-class text-center search">
+        <input  class="search-txt" id="inputClassName" type="text" placeholder="Search here" name="option" />
+     
+     <a class="search-btn" id="add-button" href="#" >
+        <i class="fas fa-search"></i>
+     </a>
     </div>
     <br>
     <div class="test-class" id="test">
@@ -55,12 +60,11 @@
         <div class="item1" id="image-loader">
             <!-- <img src="../static/ISL_Gifs/29-hello.gif" class="tutorial-image"> -->
             <img src="static/ISL_Gifs/65-sign-language-interpreter.gif" class="tutorial-image">
-
         </div>
         <div class="grey-bgs ml-5" style="padding: 5px;">
             <div class="center">
                 <br>
-                <h3> Most Commonly Used Phrases <i style="color:#ff9900;font-size: 35px;" class="fab fa-galactic-senate"></i></h3>
+                <h3 style="color:#fff;font-size: 35px;"> Most Commonly Used Phrases <i style="color:#A020F0;font-size: 35px;" class="fab fa-galactic-senate"></i></h3>
                 <br>
             </div>
             <div class="outer-column">
@@ -112,7 +116,7 @@
     <div class="alpha-containers">
         <div class="alpha">
             <div class=" alphabetcard">
-                <h5 class="card-header text-center " style="font-size: 26px;margin-bottom: 0px;">Alphabets<span style="color:#ff9900"><i class="fas fa-sort-alpha-up ml-"></i></span>
+                <h5 class="card-header text-center " style="font-size: 26px;margin-bottom: 0px;">Alphabets<span style="color:#A020F0"><i class="fas fa-sort-alpha-up ml-"></i></span>
                 </h5>
                 <div class=" myflexes">
                     <div class="allbuttons-4">
@@ -212,7 +216,7 @@
         <div class="objects">
             <div class=" newcard">
                 <h5 class="mycard-header text-center " style="font-size: 26px;margin-bottom: 0px;">Place, Time and Objects
-                    <span style="color:#ff9900"><i class="far fa-clock ml-"></i> </span>
+                    <span style="color:#A020F0"><i class="far fa-clock ml-"></i> </span>
                 </h5>
                 <div class="mycard-body">
                     <div class="outer-column">
